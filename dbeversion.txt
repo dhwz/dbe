@@ -1,5 +1,8 @@
 DreamBoxEdit Version Info
-V6.1.1.0
+V6.1.1.1
+New in 6.1.1.1
+- fixed update check
+
 New in 6.1.1.0
 - added support for non-TS streaming services with full reference
 - added new AlterMetro 2016 skin
