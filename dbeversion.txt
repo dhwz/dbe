@@ -1,0 +1,91 @@
+DreamBoxEdit Version Info
+V6.1.1.0
+New in 6.1.1.0
+- added support for non-TS streaming services with full reference
+- added new AlterMetro 2016 skin
+- added Latvian translation
+- forced old style path selection dialog for Wine
+- fixed multiple selections in bouquetlist
+- fixed paste of IPTV services from clipboard with full reference
+- OpenSSL security updates
+
+New in 6.1.0.0
+- improved hints placement
+- added Lithuanian translation
+- language file updates
+- OpenSSL security updates
+- updated IP stack
+
+New in 6.0.2.0
+- added support for AAC PID cache (PLi format)
+- added new Windows 10 skin
+- fixed service name alignment
+- fixed problems under Windows Vista introduced by the Windows security update KB3057839
+- OpenSSL security updates
+
+New in 6.0.1.3
+- fixed supported marker length with unicode characters
+- fixed configurable background color for transparent picons
+- improved hints timings
+- OpenSSL security updates
+- some GUI improvements
+- changed support email address
+
+New in 6.0.1.2
+- fixed update check
+- OpenSSL security updates
+- some GUI improvements
+- language file updates
+
+New in 6.0.1.1
+- fixed missing transponder parameters when comparing services
+- fixed missing package name UTF-8 conversion in hint details list
+- fixed integer error on namespace calculation
+
+New in 6.0.1.0
+- added renaming of bouquets with CTRL+R
+- fixed parsing of corrupted lamedb entries
+- fixed unicode issues when saving bouquetnames on some systems
+- improved Wine compatibility (Wine 1.6.2 recommended)
+- OpenSSL security updates
+- some GUI improvements
+- language file updates
+
+New in 6.0.0.2
+- fixed UTF-8 conversion errors on copy&paste of services/markers
+- some GUI improvements
+
+New in 6.0.0.1
+- fixed dreamboxEDIT 4.x.x.x profiles import on first clean startup
+- fixed minimizing bug on some systems
+
+New in 6.0.0.0
+- added full unicode support (cyrillic, greek, arabic, chinese, japanese and many more characters)
+- added IPv6 support (no telnet available, so some options are also disabled on IPv6)
+- added SSL/TLS support (HTTPS and FTPS [only explicit mode])
+- added support for data directory per profile with fallback to a global data directory
+- added support for streaming services with URL length up to 1000 characters
+- added support for new PID cache format (AAC, HE-AAC and AC3+) (DMM and PLi format)
+- added support for fastscan / hidden markers (#SERVICE 1:320:0:0:0:0:0:0:0:0:) (options panel advanced)
+- added new filter options for HD and SD (H.264) services
+- added parental control file (blacklist/whitelist) reload on service list reload (mode=4)
+- added configurable font size for main window lists
+- added support for manually added flags to lamedb with length of 1 byte
+- added support for display of 50x30 and 220x132 picon size 
+- added highspeed picon resizing algorithm
+- added configurable skin brightness
+- added options for hiding toolbar and statusbar
+- added completly new video tutorials
+- added fullscreen video streaming
+  Note:	VLC 2.1.3 is recommended, any other version may or may not result in error messages
+- added EPG for currently streamed service
+- fixed missing mode=3 (satellites.xml) on auto reload
+- fixed error after editing cable transponder data
+- improved Wine compatibility (runs on Linux and Mac)
+- improved FTP up-/download speed
+- general GUI speed improvements
+- language file updates
+- minor fixes
+- code cleanup
+
+---end--- 
