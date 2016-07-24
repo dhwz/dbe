@@ -1,5 +1,10 @@
 DreamBoxEdit Version Info
-V6.1.1.1
+V6.1.2.0
+New in 6.1.2.0
+- added service type 31 (HEVC digital television service) to TV defaults (options panel advanced)
+- added new filter option for H.265 services
+- fixed new AlterMetro 2016 skin
+
 New in 6.1.1.1
 - fixed update check
 
