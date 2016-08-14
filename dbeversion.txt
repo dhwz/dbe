@@ -1,5 +1,46 @@
 DreamBoxEdit Version Info
-V6.1.2.0
+V7.0.0.0
+New in 7.0.0.0
+- added support for editing of non-TS streaming services with full reference
+- added copying of existing service reference to an IPTV service (hold down CTRL while using drag&drop)
+- added rename of IPTV services to context menu
+- added automatic IPTV service name formating
+- added picon support for streaming services with full reference
+- added picon setting for using 4097_... service ref for filename (if needed)
+- added service type indicators (SD, HD, UHD, H.265, Radio, Data) in front of servicenames
+- added more filter options (SD, HD[H.265], UHD[H.265], DVB-T2)
+- added support for DVB-T2 (only cosmetic changes, older versions already work with DVB-T2)
+- added support for DVB-S2 modulations 16APSK and 32APSK
+- added support for multistream MIS/PLS (fully editable in satellites.xml editor, service details, transponder edit)
+- added playback of IPTV streams
+- added automatic replace of invalid polarization values (some satellites.xml use polarization L/R instead of 2/3)
+- added copyable service reference with colons to service details
+- added insert hidden marker to context menu (enable fastscan/hidden marker support first in options panel advanced)
+- added support for unknown services in userbouquets (includes former known subservices) (options panel advanced)
+- added experimental option to save lamedb5 format (OpenPLi)
+- added configurable buffer size for streaming player (options panel GUI)
+- updated streaming player
+  Note:	VLC 2.2.4 is recommended (32-bit only), any other version may or may not result in error messages
+- improved crypto icon (encrypted services) in front of servicenames
+- improved reading speed on userbouquet switch
+- improved picon resizing speed
+- improved marker visualization
+- improved Wine compatibility (Wine 1.8.3 recommended)
+- improved compatibility with "Parallels Desktop for Mac" coherence mode
+- dropped support for obsolete settings format 3
+- re-enabled the export of terrestrial services/bouquets in Excel readable format
+- fixed hiding of alternatives view after reading new lamedb
+- fixed removing alternatives if a service is removed from all bouquets
+- fixed user bouquet import with hidden markers
+- fixed rendering of disabled menu items
+- fixed memory exception when copying IPTV services from one dreamboxEDIT session to another one
+- many GUI improvements (including the new MetroUI standard skin)
+- language file updates, addes missing ones to setup xe file
+- minor fixes
+- fixed dreamboxEDIT installer, now the registry is cleaned properly on uninstall again
+  Note: before reporting any bugs, please try to uninstall first if you experience any issues
+		if you experience any issues with the file open dialog, switch to the old style dialog (options panel general)
+
 New in 6.1.2.0
 - added service type 31 (HEVC digital television service) to TV defaults (options panel advanced)
 - added new filter option for H.265 services
