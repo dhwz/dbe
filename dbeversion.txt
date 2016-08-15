@@ -1,5 +1,10 @@
 DreamBoxEdit Version Info
-V7.0.0.0
+V7.0.1.0
+New in 7.0.1.0
+- added support for real hidden markers (#SERVICE 1:832:d:0:0:0:0:0:0:0:)
+- fixed autoexpand of provider bouquetlist when using create bouquet from context menu
+- fixed dreamboxEDIT installer, remove all files properly on uninstall
+
 New in 7.0.0.0
 - added support for editing of non-TS streaming services with full reference
 - added copying of existing service reference to an IPTV service (hold down CTRL while using drag&drop)
