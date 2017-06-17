@@ -1,5 +1,28 @@
 DreamBoxEdit Version Info
-V7.1.0.0
+V7.2.0.0
+New in 7.2.0.0
+- added eServiceUri support
+- added autoscrolling on moving profiles
+- added moving multiple profiles at once
+- added switch on/off service type indicators without restart
+- added scaling factor 200%
+- improved write all linebreaks as Unix(LF) not Windows(CRLF)
+- improved MIS/PLS handling
+- improved error messages
+- fixed initial default pathes
+- fixed issues with path selection dialog
+- fixed some uncommon bug when writing markers (introduced by last update)
+- fixed assign and remove of picons in main service list
+- fixed OpenSSL libraries (x64 files were missing)
+- fixed not properly working function "Mark services not in Userbouquets with flag X"
+- fixed error on export of bouquets/services
+- fixed skipping of some completely invalid formed bouquet entries of some IPTV providers
+- fixed satellites.xml editor (transponders weren't deleteable if confirmation questions were disabled)
+- fixed website links
+- some GUI improvements
+- OpenSSL security updates
+- language file updates
+
 New in 7.1.0.0
 - added option to disable service type indicators in front of servicenames (options panel GUI)
 - added new cleanup function for local picon directory (removes all picons not found in any user bouquet)
