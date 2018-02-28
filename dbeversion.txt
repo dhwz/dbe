@@ -1,5 +1,14 @@
 DreamBoxEdit Version Info
-V7.2.0.0
+V7.2.1.0
+New in 7.2.1.0
+- added sorted list for delete satellite option in context menu
+- added volume up to 200% for streaming player
+- improved stripping of ANSI escape sequences from telnet prompt
+- improved parsing of marker entries
+- fixed reading bouquets file with invalid entries
+- fixed non-working update check
+- OpenSSL security updates
+
 New in 7.2.0.0
 - added eServiceUri support
 - added autoscrolling on moving profiles
